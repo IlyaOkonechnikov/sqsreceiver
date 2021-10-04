@@ -1,5 +1,3 @@
-server:
-  port: 8082
 cloud:
   aws:
     region:
@@ -8,11 +6,8 @@ cloud:
     stack:
       auto: false
     queue:
-      name: bookInfoQueue
+      name: testBookInfoQueue
       timeout: 10000
-    credentials:
-      access-key: {AWS_ACCESS_KEY}
-      secret-key: {AWS_SECRET_KEY}
 logging:
   level:
     com:
