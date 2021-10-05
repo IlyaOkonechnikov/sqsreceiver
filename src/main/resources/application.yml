@@ -11,8 +11,8 @@ cloud:
       name: bookInfoQueue
       timeout: 10000
     credentials:
-      access-key: {AWS_ACCESS_KEY}
-      secret-key: {AWS_SECRET_KEY}
+      access-key: ${AWS_ACCESS_KEY}
+      secret-key: ${AWS_SECRET_KEY}
 logging:
   level:
     com:

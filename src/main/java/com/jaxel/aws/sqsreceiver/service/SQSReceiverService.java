@@ -28,7 +28,7 @@ public class SQSReceiverService {
       final Book savedBook = repository.save(book);
       log.info("The book was successfully saved. id: {}", savedBook.getId());
     } else {
-      log.info("There is already a book by the author {} with the title {}.", book.getTitle(), book.getAuthor());
+      log.info("There is already a book by the author {} with the title {}.", book.getAuthor(), book.getTitle());
     }
   }
 }

@@ -10,5 +10,5 @@ import java.util.Optional;
 @EnableScan
 public interface BookRepository extends CrudRepository<Book, String> {
 
-    Optional<Book> findByTitleAndAndAuthor(String title, String author);
+  Optional<Book> findByTitleAndAndAuthor(String title, String author);
 }
